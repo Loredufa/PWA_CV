@@ -1,0 +1,61 @@
+
+/* Ancho maximo hasta */
+@media only screen and (max-width: 576px) {   
+    * {
+        font-size: 10px;
+    }       
+    #habilidades {
+        display: none;
+    }
+    #sobreMi { 
+        text-align:left;
+        margin-right: 10%;
+    }
+    #graduacion {
+        width: 30%;
+    }
+    #estudios {
+        font-size: 100%;
+        width: 80%;
+    }
+    .sizeMin {
+        margin-right: 10%;
+    }
+    #hobbies {
+        text-align:left;
+        margin-left: 33%;
+        margin-right: 10%;
+     }
+     .icon {
+        width: 50%;   
+     }
+}
+
+                
+@media only screen and (max-width: 768px) {   
+    * {
+        font-size: 10px;
+    }       
+    #sobreMi { 
+        text-align:left;
+        margin-right: 10%;
+    }
+    #graduacion {
+        width: 30%;
+    }
+    #estudios {
+        font-size: 100%;
+        width: 80%;
+    }
+    .sizeMin {
+        margin-right: 10%;
+    }
+    #hobbies {
+        text-align:left;
+        margin-left: 33%;
+        margin-right: 10%;
+     }
+     .icon {
+        width: 20%;   
+     }
+}

@@ -1,0 +1,102 @@
+*{
+    font-family:"Quicksand";
+    background-color: #e7edfe;
+    box-sizing: border-box;
+}
+
+#principal {
+    margin-top: 5%;
+}
+h1{
+    color:#0d0c0d;
+    text-align: center;
+    padding-top: 3%;
+    text-shadow: 5px 0px 5px #757075;
+
+}
+
+#sobreMi { 
+    margin-left: 11%;
+    margin-right: 5%;
+    padding-left: 10%;
+    margin-top: 3%;
+    text-align: justify;
+}
+.imgPerfil {
+    margin-top: -3%;
+}
+
+#miFoto {
+    width: 20%;
+}
+#habilidades {
+    width: 40%;
+}
+#graduacion {
+    width: 30%;
+}
+#logo {
+    margin-right: 3%;
+    margin-left: 5%;
+    width:10%;
+}
+#clash {
+width: 30%;
+}
+
+#lista {
+display: flex;
+justify-content:space-around;
+margin-right: 10%;
+}
+#estudios {
+    font-size: 120%;
+    width: 150%;
+    padding-top: 10%;
+}
+#hobbies {
+    text-align: justify;
+    margin-left: 33%;
+ }
+
+ h3 {
+    background-color:#010818;
+    color:#e7edfe;
+   padding-top: 1%;
+ }
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display:flex;
+    padding-left: 5%;
+    background-color: #010818;
+    width: 100%;
+    justify-content: space-around;
+
+ }
+ .icon {
+    background-color: transparent;  
+    transition: all ease 450ms;
+ }
+
+
+.icon:hover,
+.icon:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    transform: scale(1.1);
+        }			
+.buttonFooter {
+    border:none;
+}
+.mail {
+    display: none;
+    background-color: transparent;
+    color:#e7edfe;
+    margin-top: 1%;
+    
+}
+.mail:hover {
+   transform: scale(1.5);
+   transition: all ease 450ms;
+}
